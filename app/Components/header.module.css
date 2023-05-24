@@ -1,0 +1,32 @@
+.header {
+    border: 2px solid #54b3d6;
+    border-radius: 14px;
+    padding: 4px;
+    background: white;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-weight: 700;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    padding: 0 0.25rem;
+    margin: 0 -0.25rem;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.links:hover {
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+}
